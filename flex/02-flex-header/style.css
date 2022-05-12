@@ -1,7 +1,11 @@
+/* *{
+  border: 1px red solid;
+} */
+
 .header  {
   font-family: monospace;
   background: papayawhip;
-}
+  }
 
 .logo {
   font-size: 48px;
@@ -22,4 +26,28 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+}
+
+/* MY SOLUTION */
+
+
+.header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+}
+
+
+ul {
+display: flex ;
+padding: 4px; 
+}
+
+.logo {
+  margin: 8px;
+}
+
+li {
+  margin: 4px;
 }
