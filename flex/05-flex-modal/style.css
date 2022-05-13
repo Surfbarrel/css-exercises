@@ -4,12 +4,13 @@ html, body {
   height: 100%;
 }
 
+
 body {
   font-family: Roboto, sans-serif;
   margin: 0;
   background: #aaa;
   color: #333;
-  /* I'll give you this one for free lol */
+  /* I'll give you this one for free */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -64,3 +65,51 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+/* SOLUTION: */
+
+.modal {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+}
+
+.header{
+  font-weight: bold;
+  font-size: 18px;
+  padding: 12px;
+  padding-left: 0px;
+  padding-top: 0px;
+}
+
+
+
+.subgroup{
+  display: flex;
+  justify-content: space-between;
+}
+
+.text{
+  margin-bottom: 16px;
+}
+
+
+
+/* ANOTHER SOLUTION IS TO DEFINE FLEX NUMBERS IN THE ICON AND GROUP DIV (LEFT AND RIGHT COLUMNS)
+ THAT WAY THE ICON WON'T SHRINK! THAT WAY I WOUDN'T HAVE TO CREATE A DIV FOR THE DIV ICON.
+
+
+*/
+
+/* .icon{
+  flex: 1 1 0%;
+
+}
+
+.group{
+  flex: 8 1 0%;
+
+} */
+
+
+
